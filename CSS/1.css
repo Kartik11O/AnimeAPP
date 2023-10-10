@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     overflow-x:hidden;
 }
-/* width
+/* width */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -14,11 +14,11 @@ body{
     background: #000000;
 }
 
-/* Handle 
+/* Handle */
 ::-webkit-scrollbar-thumb {
     background: rgb(107, 105, 105);
     border-radius: 13px;
-} */
+} 
 
 #SEC-1{
     position: relative;
