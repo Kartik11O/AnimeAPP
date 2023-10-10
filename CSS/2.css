@@ -1,0 +1,98 @@
+#SEC-2{
+    position: relative;
+    width: clamp(300px,100%,1536px);
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(47, 47, 47);
+    flex-direction: column;
+}
+#Container-2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#BTN-Container{
+    position: relative;
+    width: 100%;
+    height: 22vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#BTN-Wapper{
+    width: 35vw;
+    height: 20vh;
+    background: #ffffff57;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.BTNS{
+    font-family: var(--font);
+    font-weight: bold;
+    width: 10vw;
+    height: 6vh;
+    font-size: 1.7rem;
+    background-color: #1b1b1b;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.BTNS:hover{
+    background-color: #979494;
+    color: #000;
+}
+#WaifuID{
+    display: none;
+}
+#hugID{
+    display: none;
+}
+#nudeID{
+    display: none;
+}
+#smileID{
+    display: none;
+}
+#IMG-Container{
+    width: 100%;
+    height: max-content;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.moives{
+    width: 40px;
+    height: 40px;
+}
+.imageClass{
+    width: clamp(358px,32vw,491px);
+    height: clamp(300px,93vh,665px);
+    margin: 7px;
+    animation: IMG 1s both;
+    object-fit: cover;
+}
+.imageClass-hug {
+    width: 32vw;
+    height: 38vh;
+    margin: 7px;
+    animation: IMG 1s both;
+    object-fit: cover;
+}
+@keyframes IMG {
+    0%{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+}

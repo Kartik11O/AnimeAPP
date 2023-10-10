@@ -1,0 +1,169 @@
+#SEC-3 {
+    position: relative;
+    width: clamp(300px, 100%, 100%);
+    height: clamp(300px,109vh,814px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    z-index: 9999;
+}
+
+#CONTAINER {
+    width: clamp(300px, 100%, 1536px);
+    height: 100%;
+    display: flex;
+}
+
+#Part-1 {
+    width: clamp(300px,30vw,460px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#PIC-1 {
+    width: clamp(300px,29vw,448px);
+    height: clamp(300px,40vh,302px);
+    background-image: url(https://i.pinimg.com/564x/99/5a/e1/995ae1b74ba63e8fbe4c8e84abf1d017.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 9px;
+    border: 2px solid #000;
+}
+#PIC-3 {
+    width: clamp(300px,29vw,448px);
+    height: clamp(200px,34vh,257px);
+    background-image: url(https://i.pinimg.com/564x/af/16/d2/af16d2642447715c9d4c78763d75f4b8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 9px;
+    border: 2px solid #000;
+}
+
+#Text-2{
+    width: clamp(300px,29vw,445px);
+    height: clamp(200px,30vh,224px);
+    background-color: rgb(0 0 0);
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#Text-2-p{
+    font-family: var(--Headline);
+    font-size: 1.6rem;
+    width: clamp(300px,27vw,414px);
+    margin: auto;
+}
+
+
+#Part-2 {
+    position: relative;
+    width: clamp(300px,32vw,491px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#Part-2-IMG{
+    width: clamp(300px,29vw,448px);
+    height: clamp(500px,82vh,615px);
+    background-image: url(https://i.pinimg.com/564x/b7/ab/e7/b7abe72ee38d3aef2d77a7135f72738e.jpg);
+    background-image: url(https://i.pinimg.com/564x/fd/c2/39/fdc239599650309052e142539489bff2.jpg);
+    background-image: url(https://i.pinimg.com/564x/8f/2e/7a/8f2e7a23d94c6f28c6b468749bba90fb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 9px;
+    border: 2px solid #000;
+}
+#Part-2-Text{
+    width: clamp(300px,32vw,491px);
+    height: clamp(100px,24vh,179px);
+    display: flex;
+}
+#Part-2-h2{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 7rem;
+    text-align: center;
+    margin: auto;
+    color: #ED760E;
+    border: 2px solid #000;
+    background: #000;
+    padding: 19px;
+}
+#Part-2-h2::first-letter{
+    color: #ffffff;
+}
+
+#Part-3 {
+    position: relative;
+    width: clamp(300px,37vw,568px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#Part-3-Box{
+    width: clamp(300px,36vw,552px);
+    height: clamp(400px,63vh,470px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#Part-3-h2{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 1.8rem;
+    width: clamp(300px,100%,552px);
+    font-weight: bolder;
+}
+#Part-3-Para-1{
+    font-family: var(--Headline);
+    width: clamp(300px,96%,529px);
+    font-size: 1.2rem;
+}
+#Part-3-Box-2{
+    position: relative;
+    width: clamp(300px,36vw,552px);
+    height: clamp(300px,46vh,343px);
+    display: flex;
+}
+#Part-3-Box-IMG-1{
+    width: clamp(200px,14vw,214px);
+    height: 100%;
+    background-image: url(https://i.pinimg.com/564x/a8/5b/a9/a85ba91ad703dc5dcb624e7d0550fdf1.jpg);
+    /* https://i.pinimg.com/564x/16/41/6a/16416a8f743b80ca5d0eb79e50472b22.jpg */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#Part-3-Box-Text{
+    width: clamp(90px,6vw,92px);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+#Part-3-Box-h22{
+    writing-mode: vertical-rl;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 5rem;
+    letter-spacing: 21px;
+    color: #fff;
+    margin: auto;
+}
+#Part-3-Box-IMG-2{
+    width: clamp(200px,16vw,245px);
+    height: 100%;
+    background-image: url(https://i.pinimg.com/564x/16/41/6a/16416a8f743b80ca5d0eb79e50472b22.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}

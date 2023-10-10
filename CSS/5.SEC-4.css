@@ -1,0 +1,171 @@
+#SEC-4{
+    position: relative;
+    width: clamp(300px,100%,100%);
+    height: clamp(300px,110vh,786px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+#Container-4{
+    position: relative;
+    width: clamp(300px,87vw,1336px);
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.BTN-Wapper{
+    height: clamp(300px,50vh,360px);
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+   border-top: 3px solid #000;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   transition: 0.5s;
+   cursor: pointer;
+}
+.BTN-Wapper:hover{
+    background-color: #000;
+    color: #fff;
+    border-radius: 45px;
+    letter-spacing: 20px;
+}
+#BTN-Designer{
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: clamp(122px,8vw,122px);
+    height: clamp(300px,50vh,357px);
+    background-color: rgb(255 255 255);
+    z-index: 999;
+}
+#BTN-Designer-2{
+    position: absolute;
+    right: 0;
+    bottom: 78px;
+    width: clamp(153px,10vw,153px);
+    height: clamp(300px,50vh,357px);
+    background-color: rgb(255 255 255);
+    z-index: 999;
+}
+.Anime-Design{
+    font-family: 'Major Mono Display', monospace;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.Headline-BTN{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 11rem;
+    margin: auto;
+}
+#Headline-Container-4{
+    position: relative;
+    width: clamp(300px,52vw,798px);
+    height: clamp(300px,44vh,314px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Wapper-IMG-4{
+    position: relative;
+    width: clamp(300px,25vw,384px);
+    height: clamp(300px,44vh,314px);
+    background-image: url(https://i.waifu.pics/wRpvaDu.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9;
+}
+
+#Headline-Container-4-2{
+    position: absolute;
+    right: 0;
+    width: clamp(300px,52vw,798px);
+    height: clamp(300px,44vh,314px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    float: right;
+}
+#Wapper-IMG-4-2{
+    position: relative;
+    width: clamp(300px,25vw,384px);
+    height: clamp(300px,44vh,314px);
+    background-image: url(https://i.waifu.pics/-4OUh8V.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9;
+    margin-left: 4px;
+}
+
+#BTN-Click{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: clamp(200px,42vh,300px);
+    background: rgb(0, 0, 0);
+    bottom: 0;
+}
+#BTN-Click2{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: clamp(200px,42vh,300px);
+    background: rgb(0, 0, 0);
+    bottom: 0;
+}
+.BTNS-ALL{
+    position: relative;
+    width: clamp(92px,6vw,92px);
+    height: clamp(35px,5vh,35px);
+    font-size: 1.1rem;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bolder;
+    z-index: 99;
+    margin-top: 17px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+}
+.BTNS-ALL:hover{
+            transform: translateY(10px) translateX(-4px);
+            box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+}
+.imageSmile {
+    width: clamp(358px,32vw,491px);
+    height: clamp(250px,35vh,250px);
+    margin: 7px;
+    animation: IMG 1s both;
+    object-fit: cover;
+}
+.imageHug {
+    width: clamp(358px,32vw,491px);
+    height: clamp(250px,35vh,250px);
+    margin: 7px;
+    animation: IMG 1s both;
+    object-fit: cover;
+}
+.BTNS-ALL-2{
+    position: relative;
+    width: clamp(122px,8vw,122px);
+    height: clamp(35px,5vh,35px);
+    font-size: 1.1rem;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bolder;
+    z-index: 99;
+    margin-top: 17px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+}
+.BTNS-ALL-2:hover{
+            transform: translateY(10px) translateX(-4px);
+            box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+}
