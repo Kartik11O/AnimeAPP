@@ -17,7 +17,7 @@ function WaifuF(value) {
                         console.log(WifeData)
                         let list = WifeData.files
                         list.forEach(elemO => {
-                            $("#IMG-Container").append('<img class="imageClass" src="' + elemO + '"/>')
+                            $("#IMG-Container").prepend('<img class="imageClass" src="' + elemO + '"/>')
                         });
                     })
                 break;
@@ -103,3 +103,5 @@ function WaifuF(value) {
         console.log("Check Code")
     }
 }
+
+

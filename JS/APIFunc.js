@@ -16,7 +16,7 @@ function F_Waifu(Value) {
                     .then((Wife_Data) => {
                         let Wife_Pix = Wife_Data.files
                         Wife_Pix.forEach(el1 => {
-                            $("#IMG-Container").append('<img class="imageClass"  src="' + el1 + '"/>')
+                            $("#IMG-Container").prepend('<img class="imageClass"  src="' + el1 + '"/>')
                         });
                     })
                 break;
@@ -34,7 +34,7 @@ function F_Waifu(Value) {
                     .then((Hug_Data) => {
                         let Hug_Pix = Hug_Data.files
                         Hug_Pix.forEach(el2 => {
-                            $("#IMG-Container").append('<img class="imageHug" src="' + el2 + '"/>')
+                            $("#IMG-Container").prepend('<img class="imageHug" src="' + el2 + '"/>')
                         });
                     })
                 break
@@ -53,7 +53,7 @@ function F_Waifu(Value) {
                     .then((Smile_Data) => {
                         let Smile_Pix = Smile_Data.files
                         Smile_Pix.forEach(el3 => {
-                            $("#IMG-Container").append('<img class="imageSmile" src="' + el3 + '"/>')
+                            $("#IMG-Container").prepend('<img class="imageSmile" src="' + el3 + '"/>')
                         });
                     })
                 break
@@ -73,7 +73,7 @@ function F_Waifu(Value) {
                     .then((Nude_Data) => {
                         let Nude_Pic = Nude_Data.files
                         Nude_Pic.forEach(el4 => {
-                            $("#IMG-Container").append('<img class="imageClass" src="' + el4 + '"/>')
+                            $("#IMG-Container").prepend('<img class="imageClass" src="' + el4 + '"/>')
                         });
                     })
                 break;
@@ -92,7 +92,7 @@ function F_Waifu(Value) {
                     .then((Blowjob_Data) => {
                         let Job_Pix = Blowjob_Data.files
                         Job_Pix.forEach(el5 => {
-                            $("#IMG-Container").append('<img class="imageSmile" src="' + el5 + '"/>')
+                            $("#IMG-Container").prepend('<img class="imageSmile" src="' + el5 + '"/>')
 
                         });
                     })
@@ -112,7 +112,7 @@ function F_Waifu(Value) {
                         .then((Neko_Data) =>{
                             let Neko_Pix = Neko_Data.files
                             Neko_Pix.forEach(el6 =>{
-                                $("#IMG-Container").append('<img class="imageClass" src='+ el6 + '>')
+                                $("#IMG-Container").prepend('<img class="imageClass" src='+ el6 + '>')
                             })
                             
                         })

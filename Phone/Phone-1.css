@@ -52,6 +52,7 @@ html{
     position: absolute;
     top: 10px;
     height: clamp(320px,48vh,320px);
+    z-index: 9;
 }
 .BTNS-ALL-2 {
     width: clamp(92px,6vw,92px);
@@ -59,6 +60,7 @@ html{
 #BTN-Designer-2 {
   width: clamp(122px,8vw,122px);
   bottom: 52px;
+  z-index: 9;
 }
 #Wapper-IMG-4 {
     width: 218px;
@@ -68,6 +70,7 @@ html{
 .Headline-BTN {
     font-size: 6rem;
     margin: revert;
+    z-index: 19;
 }
 .BTN-Wapper:hover {
     background-color: white;
@@ -84,4 +87,7 @@ html{
     background-image: url(https://i.pinimg.com/564x/9b/6f/47/9b6f47003aad540dc31db4848c6be10d.jpg);
     width: 166px;
     height: 314px;
+}
+#BTN-Click {
+    z-index: 99999;
 }
