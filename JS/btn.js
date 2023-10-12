@@ -8,14 +8,14 @@ $("#Headline-Container-4-2").on("click",()=>{
     console.log("working")
 })
 
-//   $(".BTNS-ALL , .BTNS-ALL-2").click(function() {
-//     setTimeout(() => {
-//         $('html,body').animate({
-//             scrollTop: $("#IMG-Container").offset().top},
-//             'slow'); 
-//     },0);
+  $(".BTNS-ALL , .BTNS-ALL-2").click(function() {
+    setTimeout(() => {
+        $('html,body').animate({
+            scrollTop: $("#IMG-Container").offset().top},
+            'slow'); 
+    },0);
    
-// });
+});
 if(screen.width > 880) { 
     // do any 480 width stuff here, or simply do nothing
     // return;
@@ -33,5 +33,18 @@ if(screen.width > 880) {
     })
 
 
-
+    $(".BTNS-ALL , .BTNS-ALL-2").click(function() {
+        setTimeout(() => {
+            $('html,body').animate({
+                scrollTop: $("#IMG-Container").offset().top},
+                'slow'); 
+        },0);
+       
+    });
 }
+
+$(window).on('load', ()=>{
+    setTimeout(() => {
+        $("#loading").fadeOut('slow ')
+    }, 1000);
+})

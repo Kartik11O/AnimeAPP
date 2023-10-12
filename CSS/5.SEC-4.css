@@ -165,6 +165,7 @@
     cursor: pointer;
     transition: 0.5s;
     border: none;
+    color: #000;
 }
 .BTNS-ALL-2:hover{
             transform: translateY(10px) translateX(-4px);
